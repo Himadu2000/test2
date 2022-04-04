@@ -5,11 +5,20 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    commit-message:
+      # Prefix all commit messages with "npm"
+      prefix: "feat: "
   - package-ecosystem: npm
     directory: "/javascript"
     schedule:
       interval: daily
+    commit-message:
+      # Prefix all commit messages with "npm"
+      prefix: "feat: "
   - package-ecosystem: bundler
     directory: "/ruby"
     schedule:
       interval: weekly
+    commit-message:
+      # Prefix all commit messages with "npm"
+      prefix: "feat: "
